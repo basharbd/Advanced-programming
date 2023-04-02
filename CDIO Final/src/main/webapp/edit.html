@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+    <link rel="stylesheet" href="edit.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="admin.js"></script>
+</head>
+<body>
+
+<a href ="admin.html">Gå tilbage</a>
+
+<div id = "id-check">
+    <label>Indtast ID på en bruger</label>
+    <br>
+    <input type = "text" id = "id-input">
+    <br>
+    <button id ="getUserButton">Enter</button>
+</div>
+
+<div id ="user-edit">
+    <ul id = "user"></ul>
+    <button id = "edit"> Rediger</button>
+</div>
+
+<div id = "edit-form">
+    <form id = "edit-input-form">
+        <input id = "user-id" class="edit-input" type="hidden" name = "oprId" minlength="1" maxlength="3">
+        <label>Navn</label>
+        <br><input id = "user-name" class="edit-input" type="text" name = "oprNavn" minlength="2" maxlength="20">
+        <br>
+        <br>
+        <label>Initial</label>
+        <br>
+        <input id = "user-ini" class="edit-input" type="text" name = "ini" minlength="2" maxlength="4">
+        <br>
+        <br>
+        <label>CPR</label>
+        <br>
+        <input id = "user-cpr" class="edit-input"  name = "cpr" type="text">
+        <br>
+    <br>
+    <label>Rolle</label>
+    <br>
+    <select id = "user-rolle" name = "rolle">
+        <option>Administrator</option>
+        <option>Farmaceut</option>
+        <option>Produktionsleder</option>
+        <option>Laborant</option>
+    </select>
+        <br>
+        <br>
+        <label>Status</label>
+    <br>
+        <select id = "user-status" name = "status">
+            <option>Aktiv</option>
+            <option>Inaktiv</option>
+        </select>
+        <br>
+    <button id="regret-button">Fortryd</button>
+    <button id = "confirm-button">Bekræft</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDIOFinal | Raavare defination</title>
+    <link rel="stylesheet" href="opretRaavare.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="farmaceut.js"></script>
+</head>
+<body>
+
+<a href="raavare.html">Gå tilbage</a>
+
+<h1>Opret din nye råvare</h1>
+    <div id = "raavare">
+        <form id = "create-item-form">
+            <input id = "a" class = "id opret-box" maxlength="3" minlength="1" name = "raavareId" placeholder="ID" type = "text">
+            <br>
+            <input id = "b" class = "navn opret-box"  maxlength="20" minlength="2" name = "raavareNavn" placeholder="Navn" type = "text">
+            <br>
+        </form>
+        <button id ="opret-raavare">Opret råvare</button>
+        <button id ="update-raavare">Opdater råvare</button>
+        <div id="identifier">
+            <form>
+            <input id = "identifier-input" class = "id opret-box" maxlength="3" minlength="1" name = "raavareId" placeholder="Indtast ID" type = "text">
+            </form>
+            <button id ="identifier-btn">Enter</button>
+        </div>
+    </div>
+
+
+    <div id="update">
+        <form id = "update-item-form">
+            <input id = "raavare-id" class = "id opret-box" maxlength="3" minlength="1" name = "raavareId" placeholder="ID" type = "hidden">
+            <input id = "raavare-navn"class = "navn opret-box"  maxlength="20" minlength="2" name = "raavareNavn" placeholder="Navn" type = "text">
+        </form>
+        <button id ="bekræft-raavare">Bekræft</button>
+    </div>
+</body>
+</html>

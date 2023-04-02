@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: #219CE8;
+}
+
+
+#opret-receptkom {
+    text-align: center;
+    margin: 60px auto 0 auto;
+    border: 1px solid black;
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+input {
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 40px;
+}
+
+input:hover {
+    border-bottom: 1px solid #219CE8;
+
+}
+
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #219CE8;
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 20px;
+    outline: none;
+}
+
+button:hover {
+    color: black;
+}

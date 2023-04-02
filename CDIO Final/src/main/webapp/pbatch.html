@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Produktbatch</title>
+    <link rel="stylesheet" href="pbatch.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="produkt.js"></script>
+</head>
+
+
+<body>
+
+    <p>1 = Underproduktion, 2 = Afsluttet</p>
+    <form id = "edit-status-form">
+    <label>Opdater produktionsstatus</label>
+    <br>
+    <input id = "edit-status-input" type="text" name="pbId" placeholder="Produktbatch ID">
+    <br>
+    <label>Produktionsstatus</label>
+    <select name= "status">
+        <option>1</option>
+        <option>2</option>
+    </select>
+    <br>
+    <button id = "edit-status-btn">Enter</button>
+    </form>
+
+
+<div id = "find-pbatch">
+    <input id = "pbatch-input"type="text" name="pbId" placeholder="Indtast ID på en produktbatch">
+    <br>
+    <button id = "pbatch-btn">Enter</button>
+</div>
+
+
+<div id = "product">
+<ul id = "batch-info"></ul>
+<table style="float: left" id = "table-pbatch-form">
+    <thead>
+    <hr>
+        <th>RåvareID</th>
+        <th>RåvareNavn</th>
+        <th>Mængde</th>
+        <th>Tolerance</th>
+    </tr>
+    </thead>
+    <tbody id = "pbatch-data">
+    </tbody>
+</thead>
+</table>
+    <table style="display: inline-block" id = "table-pbatch-form2">
+        <thead>
+        <th>Tara</th>
+        <th>Netto (Kg)</th>
+        <th>Batch</th>
+        <th>OprID</th>
+        </tr>
+        </thead>
+        <tbody id = "pbatch-data2">
+        </tbody>
+        </thead>
+    </table>
+
+    <ul id = "produkt-status">
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#receptkom {
+    border: 2px solid black;
+    width: 900px;
+    height: 1100px;
+    margin: 14px auto 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+    width: 300px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#find-rkomp-form {
+    text-align: center;
+}
+
+input {
+    margin-top: 50px;
+    width: 165px;
+    padding: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #219CE8;
+    border-width: 1px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+}
+
+#find-rkomp {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 50px;
+    height: 20px;
+}
+
+#opret-rkomp {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}

@@ -1,0 +1,118 @@
+body{
+    background-color: #4ECCA3;
+}
+
+h1{
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #EAF6F6;
+}
+a {
+    color: white;
+
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+
+#raavarebatch{
+    text-align: center;
+    margin: 50px auto 0 auto;
+    background-color: #EAF6F6;
+    width: 25%;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+#updatebatch{
+    text-align: center;
+    margin: 50px auto 0  auto;
+    background-color: #EAF6F6;
+    width: 20%;
+    padding: 20px 0;
+    border-radius: 8px;
+    display: none;
+}
+
+
+#opret-raavarebatch{
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #11999E;
+    color: white;
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+}
+
+#opret-raavarebatch:hover{
+    background-color: #30E3CB;
+}
+
+#update-raavarebatch{
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #11999E;
+    color: white;
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+}
+
+#update-raavarebatch:hover{
+    background-color: #30E3CB;
+}
+
+
+.opret-batchbox{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #4ECCA3;
+    outline: none;
+    border-radius: 5px;
+}
+
+#bekræft-raavarebatch{
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #11999E;
+    color: white;
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+}
+
+#bekræft-raavarebatch:hover{
+    background-color: #30E3CB;
+}
+
+#identifier-batch{
+    margin-top: 10px;
+    display: none;
+}
+
+#identifierbatch-btn{
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #11999E;
+    color: white;
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+}

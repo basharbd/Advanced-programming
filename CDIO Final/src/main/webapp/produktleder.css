@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    color: #219CE8;
+
+}
+
+
+#produkt-buttons {
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+    border: 1px solid black;
+    height: 200px;
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+button {
+    margin-top: 100px;
+    margin-right: 20px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: #219CE8;
+    border-width: 1px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+    color: black;
+}

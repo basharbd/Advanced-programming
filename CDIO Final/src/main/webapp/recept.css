@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    border: black 1px solid;
+    width: 600px;
+    margin: 20px auto 0;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+table thead tr {
+    background-color: #219CE8;
+
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: lightblue;
+}
+
+#recept {
+    text-align: center;
+}
+
+#find-recipe-input {
+    padding: 1px;
+    width: 200px;
+    margin-top: 50px;
+    outline: none;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+}
+
+.btn {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: #219CE8;
+    border-width: 1px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    color: black;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+#find-recipe {
+    width: 50px;
+    height: 20px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#id-check {
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+    padding: 30px;
+}
+
+#id-input {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+
+}
+
+#user-edit {
+    margin-left: auto; margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 650px;
+}
+
+ul li {
+    list-style-type: none;
+    width: 300px;
+    padding: 10px;
+}
+
+#deactivate {
+    margin-left: 5px;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+#edit-form {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+}
+#regret-button {
+    margin-right: 200px;
+
+}
+
+input {
+    outline: none;
+}
+
+.edit-input {
+    margin-top: 6px;
+}
+
+select {
+    margin-top: 10px;
+}
+
+#edit {
+    margin-left: 10px;
+}

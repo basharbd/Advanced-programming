@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDIOFinal | Opret bruger</title>
+    <link rel="stylesheet" href="opretbruger.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="admin.js"></script>
+    <script src ="cpr.js"></script>
+</head>
+
+<h1> Opret bruger</h1>
+<body>
+
+<div id = "opret">
+    <form id = "create-form">
+        <input type = "text" class = "id login-box" name = "oprId" placeholder="ID" minlength="1" maxlength="3">
+        <br>
+        <input type = "text"  class = "navn login-box" name = "oprNavn" placeholder="Navn" minlength="2" maxlength="20">
+        <br>
+        <input type = "text" class = "ini login-box" name = "ini" placeholder="Initial" minlength="2" maxlength="4">
+        <br>
+        <input type = "text" class = "cpr login-box" name = "cpr" placeholder="CPR" maxlength="11">
+        <br>
+
+        <select name = "rolle">
+            <option disabled selected hidden>Vælg rolle</option>
+            <option>Administrator</option>
+            <option>Farmaceut</option>
+            <option>Produktionsleder</option>
+            <option>Laborant</option>
+        </select>
+        <br>
+        <select name = "status">
+            <option disabled selected hidden>Vælg status</option>
+            <option>Aktiv</option>
+            <option>Inaktiv</option>
+        </select>
+        <br>
+        <button id ="add-user">Opret</button>
+    </form>
+</div>
+
+</body>
+</html>

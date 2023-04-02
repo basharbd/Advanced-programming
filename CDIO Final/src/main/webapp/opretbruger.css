@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#opret {
+    text-align: center;
+    padding: 20px;
+}
+
+.login-box {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #219CE8;
+    outline: none;
+}
+
+select {
+    outline: none;
+    background: white;
+    margin-top: 14px;
+    width: 90px;
+}
+
+button {
+    background-color:#219CE8;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-width: 1px;
+}
+
+

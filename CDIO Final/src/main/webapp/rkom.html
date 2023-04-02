@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recept Komponenter</title>
+    <link rel="stylesheet" href="rkom.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src = "recept.js"></script>
+</head>
+<body>
+
+<div id = "find-rkomp-form">
+    <button onclick="window.location.href = 'opretRkom.html'" id = "opret-rkomp">Opret Recept Komponent</button>
+    <br>
+    <input id = "rkom-input" type="text" placeholder="Indtast ID på en komponent">
+    <br>
+    <button id = "find-rkomp">Find</button>
+</div>
+
+
+<div id = "receptkom">
+    <h1 id = "overskrift">Overskrift</h1>
+    <ul id = "rkomp"></ul>
+</div>
+</body>
+</html>

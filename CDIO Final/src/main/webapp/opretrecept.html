@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="opretrecept.css">
+    <meta charset="UTF-8">
+    <title>Opret Recept</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src = "recept.js"></script>
+</head>
+<body>
+
+
+<a href="recept.html">Gå tilbage</a>
+
+<div id = "recept-form">
+    <h1>Opret Recept</h1>
+<form id = "create-recipe-form">
+    <input type="text" name="receptId" placeholder="ID">
+    <br>
+    <input type="text" name = "receptNavn" maxlength="20" minlength="2" placeholder="Navn">
+    <br>
+    <button id = "create-recipe-btn">Opret</button>
+</form>
+</div>
+</body>
+</html>

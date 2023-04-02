@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDIOFinal | Raavare defination</title>
+    <link rel="stylesheet" href="opretRbatch.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="rbatch.js"></script>
+</head>
+<body>
+
+<a href="rbatch.html">Gå tilbage</a>
+
+<h1>Opret en ny råvarebatch</h1>
+<div id = "raavarebatch">
+    <form id = "create-itembatch-form">
+        <input class = "opret-batchbox" maxlength="6" minlength="1" name = "rbId" placeholder="BatchID" type = "text">
+        <br>
+        <input class = "opret-batchbox"  maxlength="3" minlength="1" name = "raavareId" placeholder="RåvareID" type = "text">
+        <br>
+        <input class = "opret-batchbox"  maxlength="6" minlength="2" name = "maengde" placeholder="Mængde" type = "text">
+        <br>
+        <input class = "opret-batchbox"  maxlength="20" minlength="2" name = "leverandoer" placeholder="Leverandør" type = "text">
+
+        <br>
+    </form>
+    <button id ="opret-raavarebatch">Opret råvarebatch</button>
+    <button id ="update-raavarebatch">Opdater råvarebatch</button>
+    <div id="identifier-batch">
+        <form>
+            <input id = "identifierbatch-input" class = "opret-box" maxlength="3" minlength="1" name = "raavareId" placeholder="Indtast ID" type = "text">
+        </form>
+        <button id ="identifierbatch-btn">Enter</button>
+    </div>
+</div>
+
+
+<div id="updatebatch">
+    <form id = "update-itembatch-form">
+        <input id = "raavarebatch-id" class = "opret-batchbox" maxlength="6" minlength="1" name = "rbId" placeholder="BatchID" type = "hidden">
+        <input id = "raavare-id" class = "opret-batchbox"  maxlength="3" minlength="1" name = "raavareId" placeholder="RåvareID" type = "text">
+        <br>
+        <input id = "maengde" class = "opret-batchbox" maxlength="6" minlength="2" name = "maengde" placeholder="Mængde" type = "text">
+        <br>
+        <input id = "leverandoer" class = "opret-batchbox"  maxlength="20" minlength="2" name = "leverandoer" placeholder="Leverandør" type = "text">
+    </form>
+    <button id ="bekræft-raavarebatch">Bekræft</button>
+</div>
+</body>
+</html>

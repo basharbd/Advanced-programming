@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Råvare-administration</title>
+    <link rel="stylesheet" href="raavare.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="farmaceut.js"></script>
+</head>
+<body>
+
+<a href="farmaceut.html">Gå tilbage</a>
+
+<h1>Råvare-administration</h1>
+
+<div id = "raavare-func">
+    <button onclick="window.location.href = 'opretRaavare.html'">Opret/Opdater Råvare</button>
+    <button onclick="window.location.href = 'recept.html'">Recepter</button>
+    <br>
+    <input id = "find-item-input" type="text" name = "raavareId" placeholder="Indtast ID på en råvare" minlength="1" maxlength="3">
+    <br>
+    <button id = "find-item">Enter</button>
+</div>
+
+<table id = "item-table-form">
+    <thead>
+    <tr>
+        <th>Råvare ID</th>
+        <th>Råvare Navn</th>
+    </tr>
+    </thead>
+    <tbody id = "item-data">
+    </tbody>
+</table>
+
+</body>
+</html>

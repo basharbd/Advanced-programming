@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recepter</title>
+    <link rel="stylesheet" href="recept.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src = "recept.js"></script>
+</head>
+<body>
+
+<a href="raavare.html">Gå tilbage</a>
+
+<h1>Recepter</h1>
+
+<div id = "recept">
+    <button onclick="window.location.href = 'opretrecept.html'" class="btn">Opret Recepter</button>
+    <button onclick="window.location.href = 'rkom.html'" class="btn">Recept Komponent</button>
+    <br>
+    <input id = "find-recipe-input" type="text" name = "receptId" placeholder="Indtast ID på en recept" minlength="1" maxlength="4">
+    <br>
+    <button class="btn" id = "find-recipe">Enter</button>
+</div>
+
+<form id = "test">
+<table id = "recipe-table-form">
+    <thead>
+    <tr>
+        <th>Recept ID</th>
+        <th>Recept Navn</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody id = "recipe-data">
+    </tbody>
+</table>
+</form>
+</body>
+</html>

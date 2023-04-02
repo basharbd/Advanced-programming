@@ -1,0 +1,55 @@
+#pkomp-buttons {
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pk-btn {
+    margin-right: 150px;
+    margin-left: 100px;
+    height: 40px;
+    background-color: #219CE8;
+    color: white;
+    border-width: 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+#pkomp-div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    outline: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 20px;
+    text-align: center;
+}
+
+#opret-pkomp {
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: #219CE8;
+    border-width: 1px;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 50px;
+}
+
+#opret-pkomp:hover {
+    color: black;
+}
+
+
+button:hover {
+    color: black;
+}
+
+select {
+    margin-top: 15px;
+}

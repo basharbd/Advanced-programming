@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+.administrator{
+    margin-top: 10px;
+    display: none;
+
+}
+
+.pharmaceut{
+    margin-top: 10px;
+    display: none;
+
+}
+
+.produktionsleder{
+    margin-top: 10px;
+    display: none;
+
+}
+
+.laborant{
+    margin-top: 10px;
+    display: none;
+
+}
+
+.top{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    border-width: 1px;
+    background-color: #11999E;
+    color: white;
+    border-radius: 8px;
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #4ECCA3;
+}
+
+.opret{
+    margin: 10px auto;
+    border-width: 1px;
+    background-color: #11999E;
+    color: white;
+    border-radius: 8px;
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-box {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-width: 1px;
+    border-bottom: 1px solid #EAF6F6;
+    outline: none;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+}
+
+.wrap{
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+    border-radius: 8px;
+    padding: 10px 0 10px 0;
+    background-color: #66BFBF;
+    width: 20%;
+}
+
+img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Produktions-administration</title>
+    <link rel="stylesheet" href="pbatchadmin.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="produkt.js"></script>
+</head>
+<body>
+
+<div id = "pbatch-buttons">
+    <button id = "show-pbatch-create" class="pb-btn">Opret produktbatch</button>
+    <button onclick= "window.location.href = 'pbatch.html'" class="pb-btn">Tjek produktbatch</button>
+</div>
+
+<div id="pbatch-div">
+    <h2>Opret produktbatch</h2>
+    <form id = "create-pbatch-form">
+        <input type="text" name="pbId" placeholder="Produktbatch ID">
+        <br>
+        <input type="text" name="receptId" placeholder="Recept ID">
+        <br>
+        <input id = "status-input" type="hidden" name="status">
+        <br>
+        <button id = "opret-pbatch">Opret</button>
+    </form>
+</div>
+</body>
+</html>

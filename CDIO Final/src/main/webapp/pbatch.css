@@ -1,0 +1,65 @@
+body {
+    font-family: "sans-serif";
+
+}
+
+table, thead, td {
+    padding: 40px 40px 20px 40px;
+
+}
+
+thead, td {
+    border-bottom: 1px solid black;
+
+}
+
+table tbody {
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#produkt-status {
+    width: 300px;
+    height: 500px;
+
+}
+
+#product {
+    border: 1px dashed black;
+    margin-top: 100px;
+}
+
+hr {
+    border-top: 1px dashed;
+    width: 1000px;;
+}
+
+#find-pbatch {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    width: 170px;
+}
+
+#edit-status-btn {
+    margin-left: 60px;
+}
+
+select {
+    margin-top: 15px;
+
+}
+
+#edit-status-input {
+    margin-top: 5px;
+}

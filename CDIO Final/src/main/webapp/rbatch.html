@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Råvare-administration</title>
+    <link rel="stylesheet" href="rbatch.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src ="rbatch.js"></script>
+</head>
+<body>
+
+<h1>Råvarebatch-administration</h1>
+
+<div id = "rbatch">
+    <button onclick="window.location.href ='opretRbatch.html'">Opret eller opdatere råvarebatch</button>
+    <br>
+    <input id = "find-itembatch-input" type="text" name = "raavareId" placeholder="Indtast ID på en råvarebatch" minlength="1" maxlength="3">
+    <input id = "itemid-tjek" type="text" name = "raavareId" placeholder="Indtast ID for at få råvarenavn" minlength="1" maxlength="3">
+</div>
+
+
+<div id = "btn-div">
+    <button class="btn-design" id = "find-itembatch">Enter</button>
+    <button id = "itemid-tjek-btn" class="btn-design">Enter</button>
+
+</div>
+
+<table id = "itembatch-table-form">
+    <thead>
+    <tr>
+        <th>RåvareBatch ID</th>
+        <th>Råvare ID</th>
+        <th>Mængde</th>
+        <th>Leverandør</th>
+    </tr>
+    </thead>
+    <tbody id = "itembatch-data">
+    </tbody>
+</table>
+</body>
+</html>
